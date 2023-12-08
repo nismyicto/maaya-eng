@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 10rem;
+    /* height: 7rem; */
+    /* border-radius: 50%; */
+}
+
+.header-menu{
+    color: white;
+    font-size: 1rem;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--lightGreen);
+    cursor: pointer;
+}

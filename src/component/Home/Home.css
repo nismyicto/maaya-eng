@@ -1,0 +1,152 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-h {
+  padding: 2rem;
+  padding-top: 1rem;
+  flex: 3;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.right-h {
+  flex: 1;
+  position: relative;
+  background-color: darkgreen;
+}
+
+.Header-title {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.the-best-ad {
+  margin-top: 3rem;
+  background-color: var(--lightMaroon);
+  border-radius: 4rem;
+  width: fit-content;
+  padding: 20px 13px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.the-best-ad > span {
+  z-index: 2;
+}
+
+.the-best-ad > div {
+  position: absolute;
+  background-color: var(--green);
+  width: 5.4rem;
+  height: 80%;
+  left: 8px;
+  border-radius: 3rem;
+  z-index: 1;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+  text-overflow: inherit;
+}
+
+.home-text > div:nth-of-type(3) {
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 80%;
+}
+
+.figures {
+  display: flex;
+  gap: 2rem;
+}
+
+.figures > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.figures > div > span:nth-of-type(1) {
+  color: white;
+  font-size: 2rem;
+}
+
+.figures > div > span:nth-of-type(2) {
+  color: white;
+  text-transform: uppercase;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  font-weight: normal;
+}
+
+.home-buttons > :nth-child(1) {
+  color: white;
+  background-color: darkgreen;
+  width: 8rem;
+}
+
+.home-buttons > :nth-child(2) {
+  color: white;
+  background-color: transparent;
+  width: 8rem;
+  border: 2px solid darkgreen;
+}
+
+.right-h > .btn {
+  position: absolute;
+  right: 3rem;
+  top: 2rem;
+  color: black;
+}
+
+.right-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  right: 5rem;
+  top: 7rem;
+  background-color: white;
+}
+
+.right-logo > img {
+  width: 5rem;
+}
+
+.home_image {
+  position: absolute;
+  top: 14rem;
+  right: 8rem;
+  width: 30rem;
+  z-index: 2;
+}
+
+.home_image_back {
+  position: absolute;
+  height: 23rem;
+  top: 10rem;
+  right: 22rem;
+  z-index: 1;
+}
