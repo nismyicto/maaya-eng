@@ -11,7 +11,7 @@ const Header = () => {
         <li>Why Us</li>
         <li>Contact Us</li>
         <li>Testimonials</li>
-      </ul>  
+      </ul>
     </div>
   );
 };

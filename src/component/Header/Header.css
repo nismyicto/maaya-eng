@@ -6,8 +6,8 @@
 
 .logo{
     width: 10rem;
-    /* height: 7rem; */
-    /* border-radius: 50%; */
+    height: 7rem;
+    border-radius: 5px;
 }
 
 .header-menu{

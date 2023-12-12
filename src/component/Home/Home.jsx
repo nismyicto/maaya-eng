@@ -15,7 +15,7 @@ const Home = () => {
       <div className="left-h">
       <div className="Header-title stroke-text">Maaya Engineering</div>
         <Header />
-        
+        {/* the best ad*/}
         <div className="the-best-ad">
           <motion.div
             initial={{ left: mobile ? "178px" : "205px" }}
@@ -32,7 +32,6 @@ const Home = () => {
           </div>
           <div>
             <span>Dream </span>
-            <span className="stroke-text">House</span>
           </div>
           <div>
             <span>
@@ -75,7 +74,7 @@ const Home = () => {
         <div className="right-logo">
           <img src={right_logo} alt="" />
           <span>Projects</span>
-          <span></span>
+          {/*<span></span>*/}
         </div>
 
         <motion.img
