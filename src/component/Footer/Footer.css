@@ -1,0 +1,48 @@
+.Footer-container {
+  position: relative;
+}
+
+.Footer-container > hr {
+  border: 1px solid var(--lightGreen);
+  width: 98%;
+  border-radius: 80%;
+}
+
+.footer {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 18rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 4rem;
+}
+
+.social-links > a > img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.logo-f {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer>span{
+    color: white;
+}
+.logo-f > img {
+  width: 10rem;
+}
+
+.logo-f > a > img {
+  width: 10rem;
+  border-radius: 50%;
+}

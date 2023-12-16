@@ -11,27 +11,29 @@ const Home = () => {
   const transition = { type: "spring", duration: 3 };
   const mobile = window.innerWidth <= 768 ? true : false;
   return (
-    <div className="home">
+    <div className="home" id="home">
+      <div className="blur home-blur"></div>
       <div className="left-h">
-      <div className="Header-title stroke-text">Maaya Engineering</div>
+        <div className="Header-title stroke-text">Maaya Engineering</div>
         <Header />
         {/* the best ad*/}
         <div className="the-best-ad">
           <motion.div
-            initial={{ left: mobile ? "178px" : "205px" }}
+            initial={{ left: mobile ? "165px" : "238px" }}
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tweeen" }}
           ></motion.div>
-          <span>The Best Builders in the Town</span>
+          <span>The Best Builders in the region</span>
         </div>
 
         <div className="home-text">
           <div>
-            <span className="stroke-text">Build</span>
-            <span> Your</span>
+            <span className="stroke-text">We </span>
+            <span>Build</span>
           </div>
           <div>
-            <span>Dream </span>
+            <span> Your</span>
+            <span className="stroke-text"> Trust </span>
           </div>
           <div>
             <span>
@@ -44,19 +46,19 @@ const Home = () => {
         <div className="figures">
           <div>
             <span>
-              <NumberCount end={25} start={10} delay="2" preFix="+" />
+              <NumberCount end={25} start={10} delay="4" preFix="+" />
             </span>
             <span>Expertised Services</span>
           </div>
           <div>
             <span>
-              <NumberCount end={471} start={370} delay="4" preFix="+" />
+              <NumberCount end={85} start={50} delay="4" preFix="+" />
             </span>
             <span>Successful Projects</span>
           </div>
           <div>
             <span>
-              <NumberCount end={115} start={75} delay="4" preFix="+" />
+              <NumberCount end={55} start={25} delay="4" preFix="+" />
             </span>
             <span>Trusted Customers</span>
           </div>
@@ -79,19 +81,19 @@ const Home = () => {
 
         <motion.img
           initial={{ top: "1rem" }}
-          whileInView={{ top: "14rem" }}
+          whileInView={{ top: mobile ? "10rem" : "14rem" }}
           transition={transition}
           src={building_image}
           alt=""
-          className="home_image"
+          className="home-image"
         />
         <motion.img
-          initial={{ right: "11rem" }}
-          whileInView={{ right: "20rem" }}
+          initial={{ right: "1rem" }}
+          whileInView={{ right: mobile ? "4rem" : "20rem" }}
           transition={transition}
           src={building_image_back}
           alt=""
-          className="home_image_back"
+          className="home-image-back"
         />
       </div>
     </div>

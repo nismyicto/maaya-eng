@@ -21,7 +21,8 @@
 .Header-title {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2rem;
+  font-size: 4rem;
+  color: var(--green);
   font-weight: bold;
 }
 
@@ -136,22 +137,91 @@
   width: 5rem;
 }
 
-.right-logo>:nth-child(2){
+.right-logo > :nth-child(2) {
   font-size: 1.3rem;
 }
 
-.home_image {
+.home-image {
   position: absolute;
-  top: 14rem;
+  top: 4rem;
   right: 8rem;
   width: 30rem;
   z-index: 2;
 }
 
-.home_image_back {
+.home-image-back {
   position: absolute;
   height: 23rem;
-  top: 10rem;
+  top: 14rem;
   right: 22rem;
   z-index: 1;
+}
+
+.home-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .Header-title {
+    font-size: 3rem;
+  }
+  .the-best-ad {
+    margin-top: 0;
+    font-size: small;
+    align-self: center;
+    transform: scale(0.8);
+  }
+
+  .home-text {
+    font-size: xx-large;
+    align-items: center;
+  }
+  .home-text > div:nth-of-type(3) {
+    font-size: small;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+  .figures > div > span:nth-of-type(1) {
+    font-size: large;
+  }
+
+  .figures > div > span:nth-of-type(2) {
+    font-size: xx-small;
+  }
+
+  .right-h {
+    position: relative;
+    background: none;
+  }
+  .right-logo {
+    top: 1rem;
+    left: 2rem;
+  }
+
+  .home-image {
+    position: relative;
+    width: 15rem;
+    top: 14rem;
+    left: 6rem;
+    
+    align-self: center;
+  }
+
+  .home-image-back {
+    height: 14rem;;
+    width: 7rem;
+    right: 45rem;
+    top: 7rem;
+  }
 }
