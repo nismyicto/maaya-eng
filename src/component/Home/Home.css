@@ -157,12 +157,6 @@
   z-index: 1;
 }
 
-.home-blur {
-  width: 22rem;
-  height: 30rem;
-  left: 0;
-}
-
 @media screen and (max-width: 768px) {
   .home {
     flex-direction: column;
