@@ -6,6 +6,7 @@ import building_image_back from "../../assets/hero_image_back.png";
 import right_logo from "../../assets/building6.gif";
 import { motion } from "framer-motion";
 import NumberCount from "number-counter";
+import { Link } from "react-scroll";
 
 const Home = () => {
   const transition = { type: "spring", duration: 3 };
@@ -71,7 +72,11 @@ const Home = () => {
       </div>
 
       <div className="right-h">
-        <button className="btn">Contact Now</button>
+        <button className="btn">
+          <Link to="contact" span={true} smooth={true}>
+            Contact Now
+          </Link>
+        </button>
 
         <div className="right-logo">
           <img src={right_logo} alt="" />

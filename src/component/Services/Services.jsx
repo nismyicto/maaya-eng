@@ -1,7 +1,8 @@
 import React from "react";
 import "./Services.css";
-import {servicesData} from "../../data/servicesData"
-import RightArrow from "../../assets/rightArrow.png"
+import { servicesData } from "../../data/servicesData";
+import RightArrow from "../../assets/rightArrow.png";
+import { Link } from "react-scroll";
 
 const Services = () => {
   return (
@@ -18,7 +19,14 @@ const Services = () => {
             {service.image}
             <span>{service.heading}</span>
             <span>{service.details}</span>
-            <div className="contact-now"><span>Contact Now</span><img src={RightArrow} alt="" /></div>
+            <div className="contact-now">
+              <span>
+                <Link to="contact" span={true} smooth={true}>
+                  Contact Now
+                </Link>
+              </span>
+              <img src={RightArrow} alt="" />
+            </div>
           </div>
         ))}
       </div>
