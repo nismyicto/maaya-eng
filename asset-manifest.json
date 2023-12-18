@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/maaya-eng/static/css/main.b5bdbd77.css",
-    "main.js": "/maaya-eng/static/js/main.a6f50d37.js",
-    "static/media/building_images.png": "/maaya-eng/static/media/building_images.7492d886ea2843778872.png",
-    "static/media/building6.gif": "/maaya-eng/static/media/building6.de27f08ca6e014238207.gif",
-    "static/media/t-image1.png": "/maaya-eng/static/media/t-image1.c16c2c261034cf78ee57.png",
-    "static/media/highway1.jpg": "/maaya-eng/static/media/highway1.ae5ff6e021fcef28f383.jpg",
-    "static/media/apartment1.jpg": "/maaya-eng/static/media/apartment1.dc096a4b5d0211ad75d4.jpg",
-    "static/media/logo_maaya_engineering.jpeg": "/maaya-eng/static/media/logo_maaya_engineering.9a7eaffa527e2add8bf2.jpeg",
-    "static/media/logo_maaya_engineering-removebg-preview_COPY.png": "/maaya-eng/static/media/logo_maaya_engineering-removebg-preview_COPY.9072549ea9e55490ac32.png",
-    "static/media/t-image2.jpg": "/maaya-eng/static/media/t-image2.d5e771911e6a9766ca79.jpg",
-    "static/media/instagram-removebg-preview.png": "/maaya-eng/static/media/instagram-removebg-preview.149d26226cb7b1e43a45.png",
-    "static/media/bullets-removebg-preview (1).png": "/maaya-eng/static/media/bullets-removebg-preview (1).408210269f29089829a6.png",
-    "static/media/facebook-removebg-preview.png": "/maaya-eng/static/media/facebook-removebg-preview.c53c92332aa95c078bec.png",
-    "static/media/hero_image_back.png": "/maaya-eng/static/media/hero_image_back.9f54bfba33048f4ca688.png",
-    "static/media/linked-in-removebg-preview.png": "/maaya-eng/static/media/linked-in-removebg-preview.51ec2813426907512f00.png",
-    "static/media/t-image3.jpg": "/maaya-eng/static/media/t-image3.9b0a003bda4b506dff2e.jpg",
-    "static/media/drainage.jpeg": "/maaya-eng/static/media/drainage.f640a607fc84b07f3c94.jpeg",
-    "index.html": "/maaya-eng/index.html",
-    "main.b5bdbd77.css.map": "/maaya-eng/static/css/main.b5bdbd77.css.map",
-    "main.a6f50d37.js.map": "/maaya-eng/static/js/main.a6f50d37.js.map"
+    "main.css": "/static/css/main.b5bdbd77.css",
+    "main.js": "/static/js/main.b1ca3662.js",
+    "static/media/building_images.png": "/static/media/building_images.7492d886ea2843778872.png",
+    "static/media/building6.gif": "/static/media/building6.de27f08ca6e014238207.gif",
+    "static/media/t-image1.png": "/static/media/t-image1.c16c2c261034cf78ee57.png",
+    "static/media/highway1.jpg": "/static/media/highway1.ae5ff6e021fcef28f383.jpg",
+    "static/media/apartment1.jpg": "/static/media/apartment1.dc096a4b5d0211ad75d4.jpg",
+    "static/media/logo_maaya_engineering.jpeg": "/static/media/logo_maaya_engineering.9a7eaffa527e2add8bf2.jpeg",
+    "static/media/logo_maaya_engineering-removebg-preview_COPY.png": "/static/media/logo_maaya_engineering-removebg-preview_COPY.9072549ea9e55490ac32.png",
+    "static/media/t-image2.jpg": "/static/media/t-image2.d5e771911e6a9766ca79.jpg",
+    "static/media/instagram-removebg-preview.png": "/static/media/instagram-removebg-preview.149d26226cb7b1e43a45.png",
+    "static/media/bullets-removebg-preview (1).png": "/static/media/bullets-removebg-preview (1).408210269f29089829a6.png",
+    "static/media/facebook-removebg-preview.png": "/static/media/facebook-removebg-preview.c53c92332aa95c078bec.png",
+    "static/media/hero_image_back.png": "/static/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "static/media/linked-in-removebg-preview.png": "/static/media/linked-in-removebg-preview.51ec2813426907512f00.png",
+    "static/media/t-image3.jpg": "/static/media/t-image3.9b0a003bda4b506dff2e.jpg",
+    "static/media/drainage.jpeg": "/static/media/drainage.f640a607fc84b07f3c94.jpeg",
+    "index.html": "/index.html",
+    "main.b5bdbd77.css.map": "/static/css/main.b5bdbd77.css.map",
+    "main.b1ca3662.js.map": "/static/js/main.b1ca3662.js.map"
   },
   "entrypoints": [
     "static/css/main.b5bdbd77.css",
-    "static/js/main.a6f50d37.js"
+    "static/js/main.b1ca3662.js"
   ]
 }
